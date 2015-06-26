@@ -55,7 +55,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="82dp"
-        android:layout_marginEnd="82dp">
+        android:layout_marginEnd="82dp"
+        android:id="@+id/RadioGroup"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,15 +68,26 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/female"
+            android:text="@string/male"
             android:id="@+id/radioButtonMale"
              />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/male"
+            android:text="@string/female"
             android:id="@+id/radioButtonFemale" />
     </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/buttonSave"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_toLeftOf="@+id/RadioGroup"
+        android:layout_toStartOf="@+id/RadioGroup"
+        android:layout_marginTop="77dp"
+        android:onClick="saveUserProfile" />
 
 </RelativeLayout>

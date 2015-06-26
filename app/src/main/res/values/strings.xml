@@ -9,4 +9,6 @@
     <string name="male">Мужской</string>
     <string name="female">Женский</string>
     <string name="save">Сохранить</string>
+    <string name="alert_dialog_succes">Успешно</string>
+    <string name="alert_dialog_error">Ошибка</string>
 </resources>
