@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">aCard</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="input_name">Введите свое имя</string>
+    <string name="example_name">Иван</string>
+    <string name="input_birthday">Введите дату рождения</string>
+    <string name="example_birthday">1993/06/29</string>
+    <string name="input_sex">Выберите пол</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="save">Сохранить</string>
 </resources>
